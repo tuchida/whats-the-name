@@ -1,0 +1,24 @@
+{
+    "name": "whats-the-name",
+    "main": "lib/wtn.js",
+    "scripts": {
+        "run": "node ./test/closure.js",
+        "test": "gulp",
+        "gen-test": "gulp gen-test"
+    },
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-add-src": "*",
+        "gulp-concat": "*",
+        "gulp-mocha": "*",
+        "gulp-util": "*",
+        "power-assert": "*",
+        "through": "*"
+    },
+    "dependencies": {
+        "doctrine": "*",
+        "escodegen": "*",
+        "esprima": "*",
+        "estraverse": "*"
+    }
+}
